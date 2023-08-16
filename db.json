@@ -1,0 +1,28 @@
+{
+    "movies" : [
+        {"id" : 1, "name" : "King the land", "star" : 5},
+        {"id" : 2, "name" : "Batman", "star" : 5},
+        {"id" : 3, "name" : "ant man ", "star" : 5},
+        {"id" : 4, "name" : "spider man", "star" : 5},
+        {"id" : 5, "name" : "Superman", "star" : 5},
+        {"id" : 6, "name" : "Stranger Thing", "star" : 5},
+        {"id" : 7, "name" : "Steven chou", "star" : 5},
+        {"id" : 8, "name" : "Harry Potter", "star" : 5},
+        {"id" : 9, "name" : "Anabella", "star" : 5},
+        {"id" : 10, "name" : "Insidious", "star" : 5}
+    ],
+
+    "series" : [
+        {"id" : 1, "name" : "Thin lay", "star" : 5},
+        {"id" : 2, "name" : "Batman", "star" : 5},
+        {"id" : 3, "name" : "ant man ", "star" : 5},
+        {"id" : 4, "name" : "spider man", "star" : 5},
+        {"id" : 5, "name" : "Superman", "star" : 5},
+        {"id" : 6, "name" : "Stranger Thing", "star" : 5},
+        {"id" : 7, "name" : "Steven chou", "star" : 5},
+        {"id" : 8, "name" : "Harry Potter", "star" : 5},
+        {"id" : 9, "name" : "Anabella", "star" : 5},
+        {"id" : 10, "name" : "Insidious", "star" : 5}
+    ]
+
+}
