@@ -74,3 +74,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.blur-icon{
+  backdrop-filter: blur(2px);
+}
+
+.trans-duration{
+  transition-duration: 1s;
+}
+.trans-duration::before  {
+  transition-duration: 1s !important;
+}
