@@ -13,13 +13,13 @@ const GlassIcon: React.FC<GlassIconProps> = ({icon}) => {
         className={clsx(
           "border-[3px] bg-white/10 border-white/60 w-[5rem] aspect-square rounded-lg text-4xl r",
           "flex justify-center items-center realtive overflow-hidden",
-          "transition-all trans-duration ease-out",
+          "transition-all duration-500 ease-out",
           "backdrop-blur-sm shadow-lg cursor-pointer",
           "group-hover:translate-y-[-25%]",
           "before:content-[' '] before:w-[50%] before:h-[200%]",
           "before:top-[-50] before:left-[-125%] before:absolute",
           "before:transition-[left]  before:ease-out",
-          "before:bg-white/40",
+          "before:bg-white/40 before:duration-500",
           "group-hover:before:left-[170%] before:rotate-[-45deg]"
         )}
       >
