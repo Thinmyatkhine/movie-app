@@ -20,7 +20,7 @@ export default function Home(){
       <div className="flex flex-col justify-center items-center gap-4">
         {movie.map((item :any) =>(
           <div key={item.id}>
-            <h1 className="font-bold text-xl ">{item.name}</h1>
+            <h1 className="font-bold text-xl">{item.name}</h1>
           </div>
         ))}
       </div>
