@@ -10,9 +10,10 @@ interface DashboardDetailProps {
 }
 
 const DashboardDetail: React.FC<DashboardDetailProps> = () => {
-  
+   const router = useRouter();
+   let param = router?.query?.slug as any;
     return (  
-        <DashboardLayout>
+        <DashboardLayout title={param}>
             Hello 
         </DashboardLayout>
     )}

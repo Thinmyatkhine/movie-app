@@ -12,7 +12,7 @@ interface DashboardProps {}
 
 const Dashboard: React.FC<DashboardProps> = () => {
   return (
-   <DashboardLayout>
+   <DashboardLayout title="dashboard">
       <div className="w-full flex gap-5">
           <IconStatus icon={<BiSolidCameraMovie />} label="movies" total="10"/>
           <IconStatus icon={<BiSolidUser />} label="users" total="20"/>
